@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #22223b; /* Changed background color */
+            }
+            header {
+                text-align: center;
+                background-color: chocolate;
+                padding: 1rem 0;
+            }
+            h1 {
+                color: aqua;
+                margin: 0;
+            }
+            nav {
+                margin: 1rem 0;
+            }
+            button {
+                background-color: rgb(235, 89, 230);
+                color: white;
+                border: none;
+                padding: 0.5rem 1rem;
+                margin: 0 0.5rem;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+            button:hover {
+                background-color: aqua;
+            }
+            main {
+                padding: 2rem;
+            }
+            section {
+                margin-bottom: 2rem;
+                background: #f8f9fa;
+                border-radius: 10px;
+                padding: 1rem;
+            }
+            #home {
+                border: 4px solid orange;
+                background: #ffe5b4;
+            }
+            #skills {
+                border: 4px solid #00b4d8;
+                background: #caf0f8;
+            }
+            #projects {
+                border: 4px solid #43aa8b;
+                background: #e9f5db;
+            }
+            #achievements {
+                border: 4px solid #f3722c;
+                background: #fff3e2;
+            }
+            #hobbies {
+                border: 4px solid #7209b7;
+                background: #f3e8ff;
+            }
+            #skills img {
+                margin: 0.5rem;
+                width: auto;
+                height: auto;
+                max-width: 100px;
+                transition: transform 0.3s;
+                cursor: pointer;
+            }
+            #skills img:hover {
+                transform: scale(1.1);
+            }
+            footer {
+                text-align: center;
+                background-color: chocolate;
+                font-family: monospace;
+                color: aqua;
+                padding: 1rem 0;
+            }
+            footer a {
+                color: greenyellow;
+                text-decoration: none;
+            }
+            footer a:hover {
+                text-decoration: underline;
+            }
+            /* Modal styles */
+            #imgModal {
+                display: none;
+                position: fixed;
+                z-index: 1000;
+                left: 0;
+                top: 0;
+                width: 100vw;
+                height: 100vh;
+                background: rgba(0, 0, 0, 0.8);
+                align-items: center;
+                justify-content: center;
+            }
+            #imgModal img {
+                max-width: 90vw;
+                max-height: 90vh;
+                border: 8px solid white;
+                border-radius: 10px;
+            }
+            form {
+                border: 4px solid orange;
+                background: #ffe5b4;
+                padding: 1rem;
+                border-radius: 10px;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>My Portfolio</h1>
+            <nav>
+                <button onclick="location.href='#home'">Home</button>
+                <button onclick="location.href='#skills'">My Skills</button>
+                <button onclick="location.href='#projects'">Projects</button>
+                <button onclick="location.href='#achievements'">Achievements</button>
+                <button onclick="location.href='#hobbies'">Hobbies</button>
+                <button onclick="location.href='#about'">About me</button>
+                <button onclick="location.href='mailto:arishexim011@gmail.com'">Contact</button>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <h1>Let me introduce Myself</h1>
+                <ul>
+                    <li>Hello! My name is Jay Harish P. I'm currently pursuing my B.Sc in Computer Science, 3rd semester at Government Arts College, Coimbatore-18.</li>
+                    <li>I have a strong interest in programming and web development. I’m familiar with languages like C, C++, Java, Python, HTML, CSS, JavaScript, and SQL.</li>
+                    <li>I enjoy learning by doing practical tasks like creating small projects, solving programming quizzes, and building systems like routine trackers. Recently, I started learning Angular to build modern web applications.</li>
+                    <li>Apart from academics, I like participating in quizzes and exploring new technologies. My goal is to become a skilled software developer who can create useful, real-world applications.</li>
+                </ul>
+            </section>
+            <section id="skills">
+                <h2>My Skills</h2>
+                <img src="html.jpg" alt="HTML Logo" title="Introduction to HTML" onclick="openModal(this.src)">
+                <img src="css.jpg" alt="CSS Logo" title="Introduction to CSS" onclick="openModal(this.src)">
+                <img src="js.jpg" alt="JavaScript Logo" title="Introduction to Java Script" onclick="openModal(this.src)">
+                <img src="csharp.jpg" alt="C# Logo" title="Introduction to C#" onclick="openModal(this.src)">
+                <img src="c.jpg" alt="C Logo" title="Introduction to C" onclick="openModal(this.src)">
+                <img src="webdev.jpg" alt="Web Development Logo" title="Introduction to web development" onclick="openModal(this.src)">
+                <img src="sql.jpg" alt="SQL Logo" title="Introduction to SQL" onclick="openModal(this.src)">
+                <img src="java2.jpg" alt="Java Logo" title="Intermediate to Java" onclick="openModal(this.src)">
+            </section>
+            <!-- New Projects Section -->
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <strong>Routine Tracker</strong> – A web app to help students manage their daily routines and tasks. Built with HTML, CSS, and JavaScript.
+                    </li>
+                    <li>
+                        <strong>Quiz App</strong> – An interactive quiz application for practicing programming questions. Developed using Python and Tkinter.
+                    </li>
+                    <li>
+                        <strong>Personal Portfolio</strong> – This website! Showcasing my skills, projects, and contact information.
+                    </li>
+                </ul>
+            </section>
+            <!-- New Achievements Section -->
+            <section id="achievements">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Secured 3rd place in college-level coding competition (2024).</li>
+                    <li>Completed <b><i>"Introduction to Web Development"</i></b> certification from SoloLearn and IBM Skill Build.</li>
+                    <li>Participated in inter-college tech quiz events.</li>
+                </ul>
+            </section>
+            <!-- New Hobbies Section -->
+            <section id="hobbies">
+                <h2>Hobbies & Interests</h2>
+                <ul>
+                    <li>Solving programming puzzles and challenges.</li>
+                    <li>Exploring new web technologies and frameworks.</li>
+                    <li>Reading tech blogs and watching tutorials.</li>
+                    <li>Playing chess and participating in quizzes.</li>
+                </ul>
+            </section>
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>If you have any questions or want to connect, feel free to reach out!</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required rows="4" cols="40"></textarea><br>
+                    <button type="submit" onclick="alert('Email sent successfully!');">Send</button>
+                </form>
+            </section>
+            
+        </main>
+        <footer id="about">
+            <p>&copy; 2023 Jay Harish P. All rights reserved.</p>
+            <address>
+                Contact: 6381438102<br>
+                Email: <a href="mailto:arishexim011@gmail.com">arishexim011@gmail.com</a>
+            </address>
+            <p>
+                <a href="https://www.linkedin.com/in/jay-harish-p-0935b2309/" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/sriharish00u" target="_blank">GitHub</a>
+            </p>
+        </footer>
+        <!-- Modal for image enlargement -->
+        <div id="imgModal" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.8); align-items:center; justify-content:center;">
+            <img id="modalImg" src="" alt="Large view" style="max-width:90vw; max-height:90vh; border:8px solid white; border-radius:10px;">
+        </div>
+        <script>
+            // Open modal on image click
+            document.querySelectorAll('#skills img').forEach(img => {
+                img.onclick = function() {
+                    document.getElementById('modalImg').src = this.src;
+                    document.getElementById('imgModal').style.display = 'flex';
+                }
+            });
+            // Close modal when clicking outside the image
+            document.getElementById('imgModal').onclick = function(e) {
+                if (e.target === this) this.style.display = 'none';
+            }
+        </script>
+    </body>
+</html>
