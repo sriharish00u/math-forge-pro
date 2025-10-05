@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Tadasana",
+    "image": "postures/tadasana.svg",
+    "category": "Standing Posture",
+    "benefits": [
+      "Improves posture",
+      "Enhances balance",
+      "Increases focus and grounding"
+    ]
+  },
+  {
+    "name": "Vrikshasana",
+    "image": "postures/vrikshasana.svg",
+    "category": "Balancing Posture",
+    "benefits": [
+      "Strengthens legs",
+      "Improves concentration",
+      "Enhances balance"
+    ]
+  },
+  {
+    "name": "Trikonasana",
+    "image": "postures/trikonasana.svg",
+    "category": "Standing Posture",
+    "benefits": [
+      "Stretches the sides of the torso",
+      "Improves spinal mobility",
+      "Stimulates digestion"
+    ]
+  },
+  {
+    "name": "Virabhadrasana I",
+    "image": "postures/virabhadrasana-i.svg",
+    "category": "Standing Posture",
+    "benefits": [
+      "Builds leg strength",
+      "Opens hips and chest",
+      "Improves focus and stamina"
+    ]
+  },
+  {
+    "name": "Virabhadrasana II",
+    "image": "postures/virabhadrasana-ii.svg",
+    "category": "Standing Posture",
+    "benefits": [
+      "Strengthens legs and core",
+      "Opens the hips",
+      "Improves endurance"
+    ]
+  },
+  {
+    "name": "Utkatasana",
+    "image": "postures/utkatasana.svg",
+    "category": "Standing Posture",
+    "benefits": [
+      "Builds lower-body strength",
+      "Creates heat and stamina",
+      "Improves posture awareness"
+    ]
+  },
+  {
+    "name": "Adho Mukha Svanasana",
+    "image": "postures/downward-dog.svg",
+    "category": "Standing Posture",
+    "benefits": [
+      "Stretches hamstrings and calves",
+      "Strengthens arms and shoulders",
+      "Improves circulation"
+    ]
+  },
+  {
+    "name": "Uttanasana",
+    "image": "postures/uttanasana.svg",
+    "category": "Forward Bend",
+    "benefits": [
+      "Calms the nervous system",
+      "Stretches the hamstrings",
+      "Relieves mild backache"
+    ]
+  },
+  {
+    "name": "Paschimottanasana",
+    "image": "postures/paschimottanasana.svg",
+    "category": "Forward Bend",
+    "benefits": [
+      "Stretches the entire back of the body",
+      "Improves digestion",
+      "Calms the mind"
+    ]
+  },
+  {
+    "name": "Bhujangasana",
+    "image": "postures/bhujangasana.svg",
+    "category": "Backbend",
+    "benefits": [
+      "Strengthens the spine",
+      "Opens the chest and lungs",
+      "Improves posture"
+    ]
+  },
+  {
+    "name": "Setu Bandha Sarvangasana",
+    "image": "postures/bridge-pose.svg",
+    "category": "Backbend",
+    "benefits": [
+      "Strengthens the posterior chain",
+      "Opens the chest",
+      "Relieves tension in the lower back"
+    ]
+  },
+  {
+    "name": "Ustrasana",
+    "image": "postures/camel-pose.svg",
+    "category": "Backbend",
+    "benefits": [
+      "Deep chest opener",
+      "Improves spinal flexibility",
+      "Stimulates the nervous system"
+    ]
+  },
+  {
+    "name": "Dhanurasana",
+    "image": "postures/bow-pose.svg",
+    "category": "Backbend",
+    "benefits": [
+      "Strengthens the back muscles",
+      "Opens chest and shoulders",
+      "Stimulates the abdominal organs"
+    ]
+  },
+  {
+    "name": "Sirsasana",
+    "image": "postures/sirsasana.svg",
+    "category": "Inversion",
+    "benefits": [
+      "Improves circulation to the brain",
+      "Enhances focus and balance",
+      "Strengthens shoulders and core"
+    ]
+  },
+  {
+    "name": "Sarvangasana",
+    "image": "postures/sarvangasana.svg",
+    "category": "Inversion",
+    "benefits": [
+      "Supports venous return",
+      "Stimulates the thyroid",
+      "Calms the nervous system"
+    ]
+  },
+  {
+    "name": "Halasana",
+    "image": "postures/halasana.svg",
+    "category": "Inversion",
+    "benefits": [
+      "Stretches the back and shoulders",
+      "Improves spinal flexibility",
+      "Calms the mind"
+    ]
+  },
+  {
+    "name": "Navasana",
+    "image": "postures/navasana.svg",
+    "category": "Balancing Posture",
+    "benefits": [
+      "Builds core strength",
+      "Improves balance and concentration",
+      "Tones the abdominal muscles"
+    ]
+  },
+  {
+    "name": "Bakasana",
+    "image": "postures/bakasana.svg",
+    "category": "Balancing Posture",
+    "benefits": [
+      "Builds arm strength",
+      "Improves coordination",
+      "Enhances focus"
+    ]
+  },
+  {
+    "name": "Balasana",
+    "image": "postures/balasana.svg",
+    "category": "Restorative & Relaxation Posture",
+    "benefits": [
+      "Calms the nervous system",
+      "Gently stretches the back",
+      "Acts as a restorative pause"
+    ]
+  },
+  {
+    "name": "Savasana",
+    "image": "postures/savasana.svg",
+    "category": "Restorative & Relaxation Posture",
+    "benefits": [
+      "Deep integration and rest",
+      "Lowers stress and blood pressure",
+      "Supports mental recovery"
+    ]
+  },
+  {
+    "name": "Ardha Matsyendrasana",
+    "image": "postures/ardha-matsyendrasana.svg",
+    "category": "Twisting Asana",
+    "benefits": [
+      "Improves spinal mobility",
+      "Stimulates digestion",
+      "Detoxifies internal organs"
+    ]
+  },
+  {
+    "name": "Eka Pada Rajakapotasana",
+    "image": "postures/pigeon-pose.svg",
+    "category": "Hip Opener",
+    "benefits": [
+      "Opens the hips",
+      "Stretches glutes and piriformis",
+      "Helps relieve sciatic tension"
+    ]
+  },
+  {
+    "name": "Malasana",
+    "image": "postures/malasana.svg",
+    "category": "Squat / Hip Opener",
+    "benefits": [
+      "Opens hips and groin",
+      "Improves ankle mobility",
+      "Prepares for seated postures"
+    ]
+  },
+  {
+    "name": "Padmasana",
+    "image": "postures/padmasana.svg",
+    "category": "Sitting Posture",
+    "benefits": [
+      "Calms the mind",
+      "Supports meditation",
+      "Opens hips"
+    ]
+  },
+  {
+    "name": "Sukhasana",
+    "image": "postures/sukhasana.svg",
+    "category": "Sitting Posture",
+    "benefits": [
+      "Comfortable seat for meditation",
+      "Opens hips gently",
+      "Promotes upright posture"
+    ]
+  },
+  {
+    "name": "Anjaneyasana",
+    "image": "postures/anjaneyasana.svg",
+    "category": "Lunge / Hip Opener",
+    "benefits": [
+      "Stretches hip flexors",
+      "Strengthens legs",
+      "Improves balance"
+    ]
+  },
+  {
+    "name": "Ujjayi",
+    "image": "postures/ujjayi.svg",
+    "category": "Pranayama",
+    "benefits": [
+      "Improves focus",
+      "Generates internal heat",
+      "Regulates breath during movement"
+    ]
+  },
+  {
+    "name": "Anulom Vilom",
+    "image": "postures/anulom-vilom.svg",
+    "category": "Pranayama",
+    "benefits": [
+      "Balances the nervous system",
+      "Calms the mind",
+      "Improves respiratory efficiency"
+    ]
+  },
+  {
+    "name": "Kapalabhati",
+    "image": "postures/kapalabhati.svg",
+    "category": "Pranayama",
+    "benefits": [
+      "Cleanses the respiratory passages",
+      "Energizes the body",
+      "Improves digestion"
+    ]
+  },
+  {
+    "name": "Bhramari",
+    "image": "postures/bhramari.svg",
+    "category": "Pranayama",
+    "benefits": [
+      "Reduces anxiety",
+      "Calms the mind",
+      "Helps with sleep issues"
+    ]
+  },
+  {
+    "name": "Nadi Shodhana",
+    "image": "postures/nadi-shodhana.svg",
+    "category": "Pranayama",
+    "benefits": [
+      "Balances hemispheric brain activity",
+      "Promotes calm and clarity",
+      "Prepares for meditation"
+    ]
+  },
+  {
+    "name": "Dhyana (Meditation)",
+    "image": "postures/dhyana.svg",
+    "category": "Meditation & Mindfulness",
+    "benefits": [
+      "Improves sustained attention",
+      "Reduces stress",
+      "Deepens self-awareness"
+    ]
+  },
+  {
+    "name": "Yoga Nidra",
+    "image": "postures/yoga-nidra.svg",
+    "category": "Meditation & Mindfulness",
+    "benefits": [
+      "Deep relaxation",
+      "Promotes restorative sleep",
+      "Lowers stress hormones"
+    ]
+  }
+]

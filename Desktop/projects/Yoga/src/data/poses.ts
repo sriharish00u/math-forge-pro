@@ -1,0 +1,133 @@
+export type Pose = {
+  name: string
+  sanskrit?: string
+  level?: 'beginner' | 'intermediate' | 'advanced'
+  short: string
+  alignmentCues?: string[]
+  modifications?: string[]
+  safety?: string[]
+  tags?: string[]
+}
+
+export const POSES: Pose[] = [
+  {
+    name: 'Mountain Pose',
+    sanskrit: 'Tadasana',
+    level: 'beginner',
+    short: 'Standing foundational posture for alignment and grounding.',
+    alignmentCues: ['Stack ankles under hips', 'Lift through the crown', 'Shoulders relaxed down'],
+    modifications: ['Slight bend in knees if hamstrings are tight', 'Use wall support for balance'],
+    safety: ['Avoid hyperextending the knees'],
+    tags: ['standing', 'alignment', 'beginner'],
+  },
+  {
+    name: 'Downward-Facing Dog',
+    sanskrit: 'Adho Mukha Svanasana',
+    level: 'beginner',
+    short: 'Inverted V — stretches hamstrings and shoulders, strengthens arms.',
+    alignmentCues: ['Hands shoulder-width', 'Hips lift high', 'Lengthen the spine'],
+    modifications: ['Bend the knees to keep a long spine', 'Use blocks under hands'],
+    safety: ['Shoulder pain — reduce load or use forearm variant'],
+    tags: ['inversion', 'standing', 'shoulders'],
+  },
+  {
+    name: 'Warrior II',
+    sanskrit: 'Virabhadrasana II',
+    level: 'beginner',
+    short: 'Strong lunge with open hips — builds stamina and alignment.',
+    alignmentCues: ['Front knee over ankle', 'Back foot grounded', 'Torso upright'],
+    modifications: ['Shorten stance to reduce hip strain', 'Use a chair for support'],
+    safety: ['Knee instability — keep knee tracking toes, don’t force depth'],
+    tags: ['standing', 'hip opener', 'strength'],
+  },
+  {
+    name: 'Triangle Pose',
+    sanskrit: 'Trikonasana',
+    level: 'intermediate',
+    short: 'Lateral stretch with long spine and open chest.',
+    alignmentCues: ['Lengthen both sides of torso', 'Don’t collapse the chest', 'Stack shoulders'],
+    modifications: ['Use block under lower hand', 'Micro-bend in front knee'],
+    safety: ['Neck strain — look down or keep neutral'],
+    tags: ['standing', 'stretch', 'balance'],
+  },
+  {
+    name: 'Tree Pose',
+    sanskrit: 'Vrksasana',
+    level: 'beginner',
+    short: 'Single-leg balance to cultivate stability and focus.',
+    alignmentCues: ['Root through standing foot', 'Press thigh into lifted foot', 'Open the hip'],
+    modifications: ['Place toes on the ankle or shin (avoid knee)'],
+    safety: ['Avoid placing foot on knee joint'],
+    tags: ['balance', 'standing'],
+  },
+  {
+    name: 'Bridge Pose',
+    sanskrit: 'Setu Bandha Sarvangasana',
+    level: 'beginner',
+    short: 'Gentle backbend to open chest and strengthen the posterior chain.',
+    alignmentCues: ['Press evenly through feet', 'Lift hips, lengthen tailbone'],
+    modifications: ['Place block under sacrum for support', 'Keep feet hip-width'],
+    safety: ['Neck compression — avoid turning head while lifted'],
+    tags: ['backbend', 'strength'],
+  },
+  {
+    name: "Child's Pose",
+    sanskrit: 'Balasana',
+    level: 'beginner',
+    short: 'Resting pose that gently stretches the back and hips.',
+    alignmentCues: ['Allow forehead to rest', 'Breathe into the back body'],
+    modifications: ['Widen knees for belly space', 'Use bolsters under torso'],
+    safety: [],
+    tags: ['rest', 'release'],
+  },
+  {
+    name: 'Cobra Pose',
+    sanskrit: 'Bhujangasana',
+    level: 'beginner',
+    short: 'Backbend that lengthens the spine and opens the chest.',
+    alignmentCues: ['Keep pubic bone grounded', 'Lift through the sternum, not the neck'],
+    modifications: ['Keep elbows bent for low cobra', 'Engage legs to protect lower back'],
+    safety: ['Lower back pain — use gentler variation'],
+    tags: ['backbend', 'spine'],
+  },
+  {
+    name: 'Seated Forward Fold',
+    sanskrit: 'Paschimottanasana',
+    level: 'beginner',
+    short: 'Hamstring and spine stretch; encourage length before depth.',
+    alignmentCues: ['Lengthen spine before folding', 'Lead with the chest, not the head'],
+    modifications: ['Bend knees or use strap around feet'],
+    safety: ['Avoid forcing the fold with rounded spine'],
+    tags: ['seated', 'stretch'],
+  },
+  {
+    name: 'Chair Pose',
+    sanskrit: 'Utkatasana',
+    level: 'beginner',
+    short: 'Powerful standing posture to build heat and leg strength.',
+    alignmentCues: ['Sit back into hips', 'Knees track toes', 'Lift arms overhead'],
+    modifications: ['Hands at heart for less shoulder strain', 'Use wall support'],
+    safety: ['Knee issues — keep shallower bend'],
+    tags: ['strength', 'standing'],
+  },
+  {
+    name: 'Plank Pose',
+    sanskrit: 'Phalakasana',
+    level: 'beginner',
+    short: 'Core-strengthening posture that prepares for arm balances.',
+    alignmentCues: ['Shoulders over wrists', 'Neutral spine', 'Engage core'],
+    modifications: ['Drop to knees for supported plank'],
+    safety: ['Wrist pain — use fists or forearms'],
+    tags: ['core', 'strength'],
+  },
+  {
+    name: 'Corpse Pose',
+    sanskrit: 'Savasana',
+    level: 'beginner',
+    short: 'Final relaxation to integrate practice.',
+    alignmentCues: ['Let the body soften', 'Breathe naturally'],
+    modifications: ['Support knees with bolster for low back comfort'],
+    safety: [],
+    tags: ['rest', 'integration'],
+  },
+]
